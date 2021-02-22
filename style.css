@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background:#000;
+    overflow: hidden;
+}
+.text{
+    position: relative;
+    transform:rotate(calc(-0.1deg * 100))
+}
+.text .txtBox{
+    position: absolute;
+    font-size: 10vw;
+    color:#fff;
+    transform:translate(-50%,-50%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+    font-weight:900;
+    text-shadow: 0 5px 15px rgb(0,0,0,0.1);
+}
+.text .txtBox span{
+    color:#f00;
+    margin:0 10px;
+}
